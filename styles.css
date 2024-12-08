@@ -19,10 +19,6 @@
 .product-block-head{
 	color:#3b99e0;
 }
-#product-details{
+.col-lg-8{
 	background-color:white;
-}
-#summary-details{
-	background-color:#f7fbff;
-	border-top-color:#5ea4f3;
 }
