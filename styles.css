@@ -10,9 +10,9 @@
 	align-items:center;
 	text-align:center;	
 }
-.block-heading{
+.head >h2{
 	color:#3b99e0;
 }
-.head >p{
+.block-heading{
 	width:330px
 }
