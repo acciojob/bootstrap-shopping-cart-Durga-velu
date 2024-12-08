@@ -26,6 +26,13 @@
 	padding:10px;
 	box-shadow:5px;
 	border-radius:10px;
-	border:1px skew
+	border:1px skew;
 	
+}
+.table>tr>td{
+	display:flex;
+	justify-content:space-around;
+	text-align:center;
+	align-items:center;
+	padding:50px;
 }
