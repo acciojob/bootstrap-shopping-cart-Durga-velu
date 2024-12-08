@@ -1,7 +1,15 @@
 /*  your css code here. If applicable */
 *{
 	background-color:lightgrey;
-	
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+:root{
+	background-color:lightgrey;
+}
+body{
+	background-color:lightgrey;
 }
 .head{
 	display:flex;
@@ -19,12 +27,12 @@
 .product-block-head{
 	color:#3b99e0;
 }
-.col-lg-8{
-	background-color:white;
-}
+
 .container{
 	box-shadow:5px;
 	border-radius:10px;
 	display:flex;
 	flex-direction:column;
+	  width:100vw;
+    height:100vh;
 }
