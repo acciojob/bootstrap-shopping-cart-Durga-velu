@@ -22,3 +22,8 @@
 .col-lg-8{
 	background-color:white;
 }
+.container{
+	padding:10px;
+	box-shadow:5px;
+	
+}
