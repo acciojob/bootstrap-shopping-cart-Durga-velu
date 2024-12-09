@@ -1,7 +1,15 @@
 /*  your css code here. If applicable */
 *{
 	background-color:lightgrey;
-	
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+:root{
+	background-color:lightgrey;
+}
+body{
+	background-color:lightgrey;
 }
 .head{
 	display:flex;
@@ -19,26 +27,16 @@
 .product-block-head{
 	color:#3b99e0;
 }
-.col-lg-8{
-	background-color:white;
-}
+
 .container{
-	box-shadow:15px;
+	box-shadow:5px;
 	border-radius:10px;
 	display:flex;
-    flex-direction: row;
-    width:100vw;
+	flex-direction:column;
+	  width:100vw;
     height:100vh;
-    padding: 20px;
-    margin:50px
 }
-.row{
-    display: flex;
-}
-.product{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap:20px;
-    padding: 20px;
+.table{
+	border:none;
+	outline:none;
 }
