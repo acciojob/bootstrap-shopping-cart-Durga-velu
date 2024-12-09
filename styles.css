@@ -3,19 +3,19 @@
 	background-color:lightgrey;
 	
 }
-.head{
+.block-heading{
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
 	text-align:center;	
 }
-.block-heading{
+.block-heading>h2{
 	color:#3b99e0;
 	text-align:center;
 	font-size:30px;
 }
-.head > p{
+.block-heading > p{
 	width:330px
 }
 .product-block-head{
