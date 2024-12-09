@@ -13,6 +13,7 @@
 .block-heading{
 	color:#3b99e0;
 	text-align:center;
+	font-size:30px;
 }
 .head > p{
 	width:330px
@@ -21,7 +22,7 @@
 	color:#3b99e0;
 }
 
-.container{
+.container-lg{
 	box-shadow:15px;
 	border-radius:10px;
 	display:flex;
