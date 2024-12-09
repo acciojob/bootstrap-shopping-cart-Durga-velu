@@ -10,10 +10,10 @@
 	align-items:center;
 	text-align:center;	
 }
-.head >h2{
+.block-heading{
 	color:#3b99e0;
 }
-.block-heading{
+.head > p{
 	width:330px
 }
 .product-block-head{
