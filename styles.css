@@ -30,7 +30,7 @@
     width:800px;
     height:800px;
     padding: 20px;
-    margin:50px
+    margin:50px;
 }
 .row{
     display: flex;
@@ -41,6 +41,7 @@
     justify-content: space-between;
     gap:20px;
     padding: 20px;
+	background-color:white;
 }
 .product-content{
     display: flex;
