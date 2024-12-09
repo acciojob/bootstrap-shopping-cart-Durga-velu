@@ -1,15 +1,7 @@
 /*  your css code here. If applicable */
 *{
 	background-color:lightgrey;
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
-:root{
-	background-color:lightgrey;
-}
-body{
-	background-color:lightgrey;
+	
 }
 .head{
 	display:flex;
@@ -29,14 +21,22 @@ body{
 }
 
 .container{
-	box-shadow:5px;
+	box-shadow:15px;
 	border-radius:10px;
 	display:flex;
-	flex-direction:column;
-	  width:100vw;
-    height:100vh;
+    flex-direction: row;
+    width:800px;
+    height:800px;
+    padding: 20px;
+    margin:50px
 }
-.table{
-	border:none;
-	outline:none;
+.row{
+    display: flex;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+    padding: 20px;
 }
